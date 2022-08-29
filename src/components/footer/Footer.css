@@ -1,0 +1,13 @@
+
+.footer .credit{ 
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 2rem;
+    text-align: center;
+    color:#444;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.footer .credit span{
+    color:#16a085;
+}

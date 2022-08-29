@@ -1,0 +1,38 @@
+
+.welome-box{
+    display: flex;
+    margin-top: 5.5rem;
+    width: 100%;
+    box-shadow: 5px 10px 40px 1px #439787 inset;
+    font-family: Poppins;
+}
+.facility-box{
+    justify-content: center;
+    align-items: center;
+    margin:auto 1px auto 1rem ;
+}
+.welcomeHome-img img{
+    height: 30rem;
+    width: 100%;
+}
+.welome-descrp{
+  align-items: center;
+  text-align: center;
+  margin:  auto 1px auto 1px;
+}
+.welome-descrp span{
+    color: #16a085;
+}
+.welome-descrp h4{
+    color: #454545;
+}
+@media (max-width: 720px) {
+    .welome-box{
+        flex-direction: column;
+    }
+    .welcomeHome-img ing{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

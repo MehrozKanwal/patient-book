@@ -1,0 +1,19 @@
+.chart img{
+    height: 16.4rem;
+    width:30rem;
+}
+.graph{
+    width:30rem;
+
+  }
+  @media(max-width: 1100px){
+    .graph{
+        width:auto;
+    
+      }
+      .chart img{
+        height: 16.4rem;
+        width:100%;
+        
+    }
+}

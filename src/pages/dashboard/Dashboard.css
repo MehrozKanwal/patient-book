@@ -1,0 +1,118 @@
+.welocme-cont{
+    border: 1px solid #16a085;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#16a085, #9dd0c6, #fff);
+    width: 100%;
+
+   
+}
+.pat-act{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+.activity-cont{
+    width: 50%;
+    height: 18rem;
+    overflow-y: scroll;
+}
+.activity h1{
+    background-image: linear-gradient(180deg, #16a085, #9dd0c6);
+    background-color: #16a085;
+    text-align: center;
+    padding: 0.6rem;
+    color: #fff;
+}
+.activity p{
+    padding: 10px;
+}
+.pat-intro{
+    margin: 3rem auto auto 1rem;
+    text-align: center;
+}
+.pat-intro h1{
+    color: #fff;
+}
+.pat-desc{
+    text-align: center;
+    margin: 2rem auto 1.5rem auto;
+    color: #555555;
+    line-height: 2;
+   width: 80%;
+}
+.welcome-img{
+    width: 100%;
+    height: 100%;
+}
+.cart-cont{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.cart{
+    font-size: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    font-family: 'Poppins';
+}
+.dash-icon{
+    border: 1px solid #9dd0c6;
+    border-radius: 1rem;
+    padding:  0 .5rem 0 .5rem;
+    align-items: center;
+    margin: auto 1rem auto 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background-image:linear-gradient(#16a085, #9dd0c6, #78F0D6) ;
+}
+.gra-pdf{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media(max-width: 1024px){
+    .pat-act{
+        flex-direction: column;
+        
+    }
+    .welocme-cont{
+        width: auto;
+    }
+    .cart-cont{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .activity-cont{
+        width: auto;
+    }
+    .gra-pdf{
+        flex-direction: column;
+    }
+}
+@media(max-width: 1100px){
+    .gra-pdf{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 606px){
+    .cart-cont{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gra-pdf{
+        flex-direction: column;
+    }
+}

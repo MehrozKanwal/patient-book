@@ -1,0 +1,38 @@
+.rep-cart{
+    font-size: 1rem;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding:0 1rem  1rem 1rem;
+    background-color: #fff;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+.report-down{
+   
+}
+.report-icon{
+    font-size: 2rem;
+    color: #16a085;
+}
+.install-del{
+    display: flex;
+    margin-left: 8rem;
+   
+}
+.install-del div{
+    border-radius: .6rem;
+    padding: 6px 7px 6px 7px;
+    align-items: center;
+    margin: auto .2rem auto .2rem;
+    font-size: 1rem;
+    color: #454545;
+   background-color: #e1dcdc;
+   /* box-shadow: 4px 4px 1px 1px #c0c0c0; */
+}
+.report-name{
+    font-weight: 400;
+    text-align: left;
+}

@@ -1,0 +1,90 @@
+.report-box{
+    width: 100%;
+    margin: 1rem 0;
+    border: 2px solid #16a085;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+.report-box .report-criteria{
+    padding: 0.8rem;
+}
+.report-name{
+    padding-left:1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.report h1{
+    background: #16a085;
+    color: #fff;
+    padding: 0.7rem;
+    text-align: center;
+}
+.report-head{
+    width: 50rem;
+}
+.form-select{
+    width: 80%;
+    padding: 0.8rem;
+    margin: 0 1rem 1rem 1rem;
+    border: #16a085;
+    border-radius: 0.5rem;
+
+}
+
+
+.main-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    gap: 2rem;
+}
+.call-details{
+    display: flex;
+    flex-direction: column;
+}
+.main-cont input,.main-cont select {
+    width: 25rem;
+    padding: 0.7rem;
+    border: 1px solid #16a085;
+    border-radius: 0.7rem;
+}
+.main-cont span{
+    margin: 1rem 0 2px 0;
+}
+.emergency-number{
+    text-align: center;
+    margin: 1rem;
+}
+.emergency-number em{
+    color: #16a085;
+    font-size: 1.3rem;
+
+}
+
+.alert-box{
+    border: 2px solid #16a085;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+}
+
+@media(max-width: 979px){
+    .main-cont{
+        flex-direction: column;
+    }
+    .report-head{
+        width: 30rem;
+    }
+}
+@media(max-width: 736px){
+    .report-head{
+        width: 30rem;
+    }
+}
